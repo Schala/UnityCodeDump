@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61edc482a06bfb64dbca946ed641cd20, type: 3}
+  m_Name: Move
+  m_EditorClassIdentifier: 
+  m_Actions:
+  - {fileID: 11400000, guid: c39ee7e753fabd242ada6756b948eb2e, type: 2}
+  m_Transitions:
+  - decision: {fileID: 11400000, guid: 4ff6b3c372de90943aed9a9c95c6cc05, type: 2}
+    trueState: {fileID: 11400000, guid: 54c118250fdec924fb7ed06707746487, type: 2}
+    falseState: {fileID: 11400000, guid: b07e8af0ba712f243a3e0a254f4a5b86, type: 2}
+  m_SceneGizmoColor: {r: 0, g: 1, b: 0, a: 1}
